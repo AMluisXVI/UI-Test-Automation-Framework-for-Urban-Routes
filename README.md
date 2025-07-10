@@ -7,8 +7,6 @@ This project is part of Sprint 8 of the QA program and aims to automate the comp
 ## 👤 Author
 
 **Full name:** Luis Manco  
-**Cohort:** qa-cohort-23
-
 ---
 
 ## 📌 Project Description
