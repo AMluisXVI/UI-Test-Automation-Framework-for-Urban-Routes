@@ -1,34 +1,34 @@
-# 🚕 Urban Routes – Automatización de Pedido de Taxi
+# 🚕 Urban Routes – Taxi Order Automation
 
-Este proyecto forma parte del Sprint 8 del programa de QA y tiene como objetivo automatizar el flujo completo de pedir un taxi en la aplicación **Urban Routes**, utilizando Selenium WebDriver con el patrón Page Object Model (POM).
+This project is part of Sprint 8 of the QA program and aims to automate the complete flow of ordering a taxi in the **Urban Routes** application, using Selenium WebDriver with the Page Object Model (POM) pattern.
 
 ---
 
-## 👤 Autor
+## 👤 Author
 
-**Nombre completo:** Luis Manco  
+**Full name:** Luis Manco  
 **Cohort:** qa-cohort-23
 
 ---
 
-## 📌 Descripción del proyecto
+## 📌 Project Description
 
-Se automatizan los siguientes pasos de usuario:
+The following user steps are automated:
 
-1. Ingresar dirección de salida y destino.
-2. Seleccionar la tarifa "Comfort".
-3. Ingresar un número de teléfono.
-4. Solicitar y capturar el código de confirmación.
-5. Agregar una tarjeta bancaria.
-6. Escribir un mensaje para el conductor.
-7. Pedir una manta, pañuelos y dos helados 🍦.
-8. Confirmar el pedido.
-9. Verificar que se muestra el modal de búsqueda de conductor.
-10. (Opcional) Verificar que se muestra la información del conductor.
+1. Enter pickup and destination addresses.
+2. Select the "Comfort" fare.
+3. Enter a phone number.
+4. Request and capture the confirmation code.
+5. Add a bank card.
+6. Write a message for the driver.
+7. Request a blanket, tissues, and two ice creams 🍦.
+8. Confirm the order.
+9. Verify that the driver search modal is displayed.
+10. (Optional) Verify that the driver information is displayed.
 
 ---
 
-## 🛠 Tecnologías y herramientas utilizadas
+## 🛠 Technologies and Tools Used
 
 - Python 3
 - Selenium WebDriver
@@ -39,39 +39,39 @@ Se automatizan los siguientes pasos de usuario:
 
 ---
 
-## 📁 Estructura del proyecto
+## 📁 Project Structure
 
 ```
-📦qa-project-Urban-Routes-es
-├── data.py          # Variables con datos del test (teléfono, direcciones, etc.)
-├── main.py          # Automatización del flujo de pedido de taxi
-├── README.md        # Este archivo
+📦qa-project-Urban-Routes-en
+├── data.py          # Variables containing test data (phone number, addresses, etc.)
+├── main.py          # Automation of the taxi order flow
+├── README.md        # This file
 ```
 
 ---
 
-## ▶️ Cómo ejecutar las pruebas
+## ▶️ How to Run the Tests
 
-### 1. Clona este repositorio
+### 1. Clone this repository
 
 ```bash
-git clone https://github.com/tuusuario/qa-project-Urban-Routes-es.git
-cd qa-project-Urban-Routes-es
+git clone https://github.com/youruser/qa-project-Urban-Routes-en.git
+cd qa-project-Urban-Routes-en
 ```
 
-### 2. Instala las dependencias
+### 2. Install the dependencies
 
 ```bash
 pip install selenium pytest
 ```
 
-### 3. Ejecuta las pruebas
+### 3. Run the tests
 
 ```bash
 pytest main.py
 ```
 
-Si tus pruebas están dentro de una carpeta (por ejemplo, `tests/`), el comando sería:
+If your tests are inside a folder (for example, `tests/`), the command would be:
 
 ```bash
 pytest tests/main.py
@@ -79,14 +79,14 @@ pytest tests/main.py
 
 ---
 
-## ✅ Notas adicionales
+## ✅ Additional Notes
 
-- El código intercepta el código de verificación del teléfono utilizando los logs de red de Chrome (CDP).
-- Recuerda verificar los IDs o selectores si la página cambia.
-- Se recomienda probar con al menos 4 tipos de selectores: `ID`, `ClassName`, `XPath`, `CSS Selector`.
+- The code intercepts the phone verification code using Chrome’s network logs (CDP).
+- Remember to check the IDs or selectors if the page changes.
+- It is recommended to use at least 4 types of selectors: `ID`, `ClassName`, `XPath`, `CSS Selector`.
 
 ---
 
-## 📬 Contacto
+## 📬 Contact
 
-Si tienes dudas o sugerencias, puedes contactarme por Discord o vía GitHub issues.
+If you have questions or suggestions, feel free to contact me via Discord or through GitHub issues.
